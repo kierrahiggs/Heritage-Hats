@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial=1.0" charset="utf-8">
+<title>Heritage Hats Website</title>
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+	
+	<style>
+		body{
+			margin: 0;
+			background-image:repeating-linear-gradient(0 0 0 0);
+			width: 100%;
+			background-size: cover;
+			overflow-x: hidden;
+			page-size:120%;
+			
+			}  
+		*{
+			box-sizing: border-box;
+			text-decoration: none;
+		}
+		.navbar{
+			background: #1B2735;
+			font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+			padding-right: 15px;
+			padding-left: 15px;
+			justify-content: space-between;
+			padding-top: 10px;
+			max-width: 100vm;
+		
+		
+		}
+		.navdiv{
+			display: flex;
+			align-items: center;
+			justify-content:space-between;
+			max-width: 100%;
+		}
+		.logo a{
+			width: 20%;
+			font-size: 35vm;
+			font-weight: 600;
+			color:beige;
+		}
+		nav ul li {
+			list-style: none;
+			display:inline;
+			width: 50%;
+			list-style-type:none;
+			font-size: 1.20vm;
+		}
+		nav ul li a{ 
+			width: 40%;
+			
+			font-weight: bold;
+			color: #FE7A32;
+			margin-right: 40px;
+		    padding-left: 40px;
+			transition: all 0.35s ease;
+		}
+		button{
+			background-color:#1B2735;
+			border-style: none;
+			border-radius: 10px;
+			padding: 5px;
+			left:55%;
+			display: inline-block;
+		}
+		nav ul li a:hover{
+			color: white;
+		}
+	
+		nav ul li a:before{
+			left: 18%;
+			right: 18%;
+			top: 50%;
+			content: "";
+			border-left: 12px solid white;
+			border-right:12px solid white;
+			transform: translate(-50%);
+			height: 3px;
+			opacity:0;
+			position: absolute;
+			transition: all 0.35s ease;
+			 font-size: 1.50vm;
+		}
+		.hero-image {
+			position: relative;
+			display:flex;
+			width:100%;
+			height: 50%;
+		}
+		.hero-image img{
+			width: 100%;
+			height: 550px;
+		}
+		.hero-text{
+			position: absolute;
+			top:25% ;
+			left:23% ;
+			color: #FE7A32;
+			background-color: #1B2735;
+			padding:29px;
+			font-size: 1.20vw;
+			letter-spacing: 2px;	
+	    }
+		#container2 h1{
+			position: relative;
+			width:70%;
+			top: 2%;
+			left: 10%;
+			color:#1B2735; 
+		    font-size: 38px;
+			padding: 7px;
+			margin:0;
+		}
+	
+		#container3 h1{
+			color: #051236;
+			font-size: 250%;
+			align-items: center;
+			padding: 8px;
+			margin-left: 10%;
+		}
+		
+		
+		
+		
+			
+		}
+	</style>
+<div class="webpage">
+
+<header>
+	<nav class="navbar">
+		<div class="navdiv">
+			<div class="logo"><button onclick="document.location='http://www.heritagehatshop.com/'"><img src="image/corner logo resize.jpeg" alt="nav logo" class="nav logo" style="width: 120px; border-color: #FE7A32 medium; border-width: 10px;"></button></div>
+	<ul>
+	<section id="button group">
+		<button onclick="document.location='#container2'"><li><a herf="#about">About</a></li></button>
+		<button onclick="document.location='#container3'"><li><a herf="#get connected">Get Connected</a></li></button>
+		<button onClick="document.location='#container5'"><li><a herf="styles">Styles</a></li></button>
+		<li><a herf="#">Sign Up</a></li>
+		</section>
+	</ul>
+			
+	</div>
+	</nav>
+	<div class="hero-image">
+		<img src="image/AdobeStock_543045563 (1).jpeg" alt="hero image">
+		<div class="hero-text">
+			<h1>Hats That Cover the State of&nbsp;Arizona</h1>
+			
+		</div>
+	</div>
+	</header>
+<body>
+	<section id="container2">
+
+	<h1>About Us</h1>
+	<img src="image/about resize.jpeg" alt="aboutusinfopic">
+	<p> Heritage Hats was founded nearly 45 years ago in Phenoix, Arizona. Over the years Heritage Hats has served their community and nation-wide customers high quality western hats. This is a brand that understands the importance of top quality in hat wear and strives to give every custumer the high-quality fashion everyone deserves to experiance. </p>
+	
+	</section>
+	
+<section id="container3">
+	<h1>Get Connected</h1>
+	<p style="align-content:stretch; display: block; margin: 2%; width: 45%; line-height: 155%">Who doesn't love free giveaways? Get connected with weekly postings of products, sales, discounts, give-aways, and MORE!<br>There are year round dales and offers that you do NOT want to miss out on! So to make sure you never miss out, stay connected by registering to our website! Once you register sucessfully, you will recieve a confirmation that your response was reported and get ready for lots of sales! </p>
+	<img id="con3img1" src="image/resized.jpeg" alt="" width="19%" style="border: #FE7A32; border-radius:12px; margin-top:25px;">
+	
+	<img id="con3img2" src="image/girl resize.jpeg" alt="" width="20%" style="border: #FE7A32; border-radius:12px;margin-top:200px">
+	
+	<img id="con3img3" src="image/man resized.jpeg" alt="" width="17%" style="border: #FE7A32; border-radius:12px;margin-top:0px">
+	
+	<div id="iframe">
+		<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9qvlCGIi1D6pfoCC0NNkfhX93zWMMhSMR06MavMKMufncaw/viewform?embedded=true" style="width: 79%; height:95%"  frameborder="0"  >Sign Up Here</iframe>
+	</div>
+	<div class="social">
+		<ul>
+			<li><a herf="https://www.facebook.com/login.php/">Facebook Login</a></li>
+			<li><a herf="https://www.facebook.com/">X Login</a></li>
+			
+		</ul>
+	</div>
+	</section>
+	
+	
+<section id="container4">
+	<h1 style="text-align: center; padding: 15px; font-size: 50px">All Styles</h1>
+<div class="scroll">	
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat1"> 
+		<h3>Hat 1</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-1">Buy Now</button>
+		</div>
+	
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat2"> 
+		<h3>Hat 2</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+	
+		<button class="buy-2">Buy Now</button>
+		</div>
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat3"> 
+		<h3>Hat 3</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-3">Buy Now</button>
+		</div>
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat4"> 
+		<h3>Hat 4</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-4">Buy Now</button>
+		</div>
+		<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat5"> 
+		<h3>Hat 1</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-5">Buy Now</button>
+		</div>
+	
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat6"> 
+		<h3>Hat 2</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+	
+		<button class="buy-6">Buy Now</button>
+		</div>
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat7"> 
+		<h3>Hat 3</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-7">Buy Now</button>
+		</div>
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat8"> 
+		<h3>Hat 4</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-8">Buy Now</button>
+		</div>
+	</div>
+	<div class="scroll">	
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat1"> 
+		<h3>Hat 1</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-1">Buy Now</button>
+		</div>
+	
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat2"> 
+		<h3>Hat 2</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+	
+		<button class="buy-2">Buy Now</button>
+		</div>
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat3"> 
+		<h3>Hat 3</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-3">Buy Now</button>
+		</div>
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat4"> 
+		<h3>Hat 4</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-4">Buy Now</button>
+		</div>
+		<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat5"> 
+		<h3>Hat 1</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-5">Buy Now</button>
+		</div>
+	
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat6"> 
+		<h3>Hat 2</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+	
+		<button class="buy-6">Buy Now</button>
+		</div>
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat7"> 
+		<h3>Hat 3</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-7">Buy Now</button>
+		</div>
+	<div class="content">
+		<img src="image/hat resize.jpeg" alt="hat8"> 
+		<h3>Hat 4</h3>
+		<p>Description</p>
+		<h6>$56.00</h6>
+		
+		<button class="buy-8">Buy Now</button>
+		</div>
+	</div>
+	
+	
+	</section>
+	
+	
+	</body>
+	<footer>
+	
+	<div id="container5">
+		<p>Copyright &copy;2024; Designed by: Higgs, Kierra.</p>
+		<h5>Grand Canyon University</h5>
+		<h5>DDN-336</h5>
+		
+	</div>
+	
+</footer>
+	</div>
+</html>
